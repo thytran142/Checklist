@@ -7,17 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93E6E5801ED7F81C0085A2EF /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E6E57F1ED7F81C0085A2EF /* ChecklistItem.swift */; };
+		93E6E5821EDAB4580085A2EF /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E6E5811EDAB4580085A2EF /* AddItemViewController.swift */; };
+		93E6E5841EDC6B480085A2EF /* AllListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E6E5831EDC6B480085A2EF /* AllListsViewController.swift */; };
+		93E6E5861EDC71500085A2EF /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E6E5851EDC71500085A2EF /* Checklist.swift */; };
+		93E6E5881EDC76390085A2EF /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E6E5871EDC76390085A2EF /* ListDetailViewController.swift */; };
+		93E6E58A1EDC96290085A2EF /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E6E5891EDC96290085A2EF /* DataModel.swift */; };
 		93FC2AFA1ED31DF400362C33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2AF91ED31DF400362C33 /* AppDelegate.swift */; };
-		93FC2AFC1ED31DF400362C33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2AFB1ED31DF400362C33 /* ViewController.swift */; };
+		93FC2AFC1ED31DF400362C33 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2AFB1ED31DF400362C33 /* ChecklistViewController.swift */; };
 		93FC2AFF1ED31DF400362C33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FC2AFD1ED31DF400362C33 /* Main.storyboard */; };
 		93FC2B011ED31DF400362C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93FC2B001ED31DF400362C33 /* Assets.xcassets */; };
 		93FC2B041ED31DF400362C33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FC2B021ED31DF400362C33 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93E6E57F1ED7F81C0085A2EF /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		93E6E5811EDAB4580085A2EF /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		93E6E5831EDC6B480085A2EF /* AllListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllListsViewController.swift; sourceTree = "<group>"; };
+		93E6E5851EDC71500085A2EF /* Checklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
+		93E6E5871EDC76390085A2EF /* ListDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
+		93E6E5891EDC96290085A2EF /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		93FC2AF61ED31DF400362C33 /* Checklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FC2AF91ED31DF400362C33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93FC2AFB1ED31DF400362C33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93FC2AFB1ED31DF400362C33 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		93FC2AFE1ED31DF400362C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93FC2B001ED31DF400362C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93FC2B031ED31DF400362C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				93FC2AF91ED31DF400362C33 /* AppDelegate.swift */,
-				93FC2AFB1ED31DF400362C33 /* ViewController.swift */,
+				93FC2AFB1ED31DF400362C33 /* ChecklistViewController.swift */,
 				93FC2AFD1ED31DF400362C33 /* Main.storyboard */,
 				93FC2B001ED31DF400362C33 /* Assets.xcassets */,
 				93FC2B021ED31DF400362C33 /* LaunchScreen.storyboard */,
 				93FC2B051ED31DF400362C33 /* Info.plist */,
+				93E6E57F1ED7F81C0085A2EF /* ChecklistItem.swift */,
+				93E6E5811EDAB4580085A2EF /* AddItemViewController.swift */,
+				93E6E5831EDC6B480085A2EF /* AllListsViewController.swift */,
+				93E6E5851EDC71500085A2EF /* Checklist.swift */,
+				93E6E5871EDC76390085A2EF /* ListDetailViewController.swift */,
+				93E6E5891EDC96290085A2EF /* DataModel.swift */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93FC2AFC1ED31DF400362C33 /* ViewController.swift in Sources */,
+				93FC2AFC1ED31DF400362C33 /* ChecklistViewController.swift in Sources */,
+				93E6E5881EDC76390085A2EF /* ListDetailViewController.swift in Sources */,
+				93E6E5821EDAB4580085A2EF /* AddItemViewController.swift in Sources */,
+				93E6E5861EDC71500085A2EF /* Checklist.swift in Sources */,
+				93E6E5801ED7F81C0085A2EF /* ChecklistItem.swift in Sources */,
+				93E6E58A1EDC96290085A2EF /* DataModel.swift in Sources */,
+				93E6E5841EDC6B480085A2EF /* AllListsViewController.swift in Sources */,
 				93FC2AFA1ED31DF400362C33 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +326,7 @@
 				93FC2B0A1ED31DF400362C33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
